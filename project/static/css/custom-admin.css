@@ -1,0 +1,38 @@
+:root {
+  /* Primary (Used for backgrounds and text colors) */
+  --w-color-primary-100: #e6e6e6;
+  --w-color-primary-200: #a1a1a1;
+  --w-color-primary-300: #5c5c5c;
+  --w-color-primary-400: #403e3f; 
+  --w-color-primary-500: #312f30; /* Main page background */
+  --w-color-primary-600: #252324;
+  --w-color-primary-700: #191718;
+  --w-color-primary-800: #0f0e0f;
+  --w-color-primary-900: #050404;
+  --w-color-primary: var(--w-color-primary-500);
+  --w-color-primary-light: #403e3f; /* Slightly lighter for hover */
+  --w-color-primary-text: #ffffff;
+
+  /* Secondary - Button and Icon Accent (Peach/Gold) */
+  --w-color-secondary-100: #faebdf;
+  --w-color-secondary-200: #f5d5c0;
+  --w-color-secondary-300: #efb89b;
+  --w-color-secondary-400: #e8b08a;
+  --w-color-secondary-500: #d19b7a; /* Hover color */
+  --w-color-secondary-600: #b67d5f;
+  --w-color-secondary-700: #925f46;
+  --w-color-secondary-800: #603e2e;
+  --w-color-secondary-900: #301e17;
+  --w-color-secondary: var(--w-color-secondary-400);
+  --w-color-secondary-hover: var(--w-color-secondary-500);
+
+  /* Accent for Highlights (Optional Sparkle) */
+  --w-color-accent: var(--w-color-secondary-400);
+
+  /* Form Styling */
+  --w-color-form-bg: #ffffff;
+  --w-color-form-text: #000000;
+  --w-color-button-bg: var(--w-color-secondary);
+  --w-color-button-hover: var(--w-color-secondary-hover);
+  --w-color-overlay: var(--w-color-secondary); /* Decorative circle */
+}
